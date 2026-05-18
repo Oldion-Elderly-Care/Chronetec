@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cadastro.css';
 
-const Login = () => {
+const Cadastro = () => {
   return (
     <div className="main-wrapper">
       <div className="back-button">
@@ -42,4 +42,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Cadastro;
