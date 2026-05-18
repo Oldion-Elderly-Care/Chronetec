@@ -1,0 +1,132 @@
+/* Fundo da tela inteira com o gradiente da imagem */
+.main-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #A5B4FC 0%, #C084FC 50%, #FDE68A 100%);
+  position: relative;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-button button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* O cartão central */
+.login-card {
+  background: linear-gradient(135deg, #BFDBFE 0%, #DBEAFE 100%);
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* Botões sociais */
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-btn {
+  width: 100%;
+  max-width: 350px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid white;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #444;
+}
+
+.social-btn img {
+  width: 24px;
+}
+
+.facebook img {
+  width: 35px;
+}
+
+.divider {
+  margin: 20px 0;
+  color: #88a4d4;
+  font-size: 0.9rem;
+}
+
+/* Inputs */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.input-field {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Botão Entrar roxo */
+.submit-btn {
+  margin-top: 20px;
+  width: 150px;
+  height: 45px;
+  background-color: #C084FC;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+  background-color: #a855f7;
+}
