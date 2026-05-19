@@ -1,4 +1,3 @@
-import React from 'react';
 import './Cadastro.css';
 
 const Cadastro = () => {
@@ -9,22 +8,31 @@ const Cadastro = () => {
       </div>
 
       <div className="login-card">
-        <h1 className="title">Entrar</h1>
+        <h1 className="title">Criar nova conta</h1>
 
         <div className="social-buttons">
           <button className="social-btn google">
             <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" />
-            Criar uma conta google
+            Criar com conta Google
           </button>
           
           <button className="social-btn facebook">
             <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook" />
+            Criar com conta Facebook
           </button>
         </div>
 
         <div className="divider">ou</div>
 
+        
+
         <div className="form-container">
+
+          <div className="input-field">
+            <span className="icon">🚹</span>
+            <input type="text" placeholder="Funcionário ou Aluno..." />
+          </div>
+
           <div className="input-field">
             <span className="icon">✉</span>
             <input type="text" placeholder="Email ou RM..." />
@@ -35,7 +43,12 @@ const Cadastro = () => {
             <input type="password" placeholder="Senha..." />
           </div>
 
-          <button className="submit-btn">Entrar</button>
+          <div className="input-field">
+            <span className="icon">🔒</span>
+            <input type="password" placeholder="Confirme a senha..." />
+          </div>
+
+          <button className="submit-btn">Criar</button>
         </div>
       </div>
     </div>

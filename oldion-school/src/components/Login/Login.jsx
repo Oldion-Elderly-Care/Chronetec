@@ -1,4 +1,3 @@
-import React from 'react';
 import './Login.css';
 
 const Login = () => {
@@ -19,6 +18,7 @@ const Login = () => {
           
           <button className="social-btn facebook">
             <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook" />
+            Entrar com conta Facebook
           </button>
         </div>
 
