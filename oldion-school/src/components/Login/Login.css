@@ -111,9 +111,9 @@
   color: #333;
 }
 
-/* Botão Entrar roxo */
+/* Botão principal */
 .submit-btn {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 150px;
   height: 45px;
   background-color: #C084FC;
@@ -129,4 +129,18 @@
 .submit-btn:hover {
   transform: scale(1.05);
   background-color: #a855f7;
+}
+
+/* Link trocar tela */
+.switch-link {
+  color: #6b8ec7;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.switch-link span {
+  color: #C084FC;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
 }

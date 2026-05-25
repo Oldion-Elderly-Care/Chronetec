@@ -1,0 +1,47 @@
+.perfil-card {
+  text-align: center;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #C084FC, #A5B4FC);
+  color: white;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 15px rgba(192, 132, 252, 0.4);
+}
+
+.perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0 30px;
+  width: 100%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-item {
+  background: white;
+  border-radius: 8px;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.sair-btn {
+  background-color: #f87171 !important;
+}
+
+.sair-btn:hover {
+  background-color: #ef4444 !important;
+}

@@ -1,0 +1,32 @@
+.welcome-card {
+  text-align: center;
+}
+
+.subtitle {
+  color: #5a7abf;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.outline-btn {
+  background: transparent !important;
+  border: 2px solid #C084FC !important;
+  color: #C084FC !important;
+  box-shadow: none !important;
+}
+
+.outline-btn:hover {
+  background: #C084FC !important;
+  color: white !important;
+}
