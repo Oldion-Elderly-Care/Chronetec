@@ -7,12 +7,12 @@ const Login = () => {
   const handleLogin = () => {
     // Simula login salva usuario fake e vai pro perfil
     localStorage.setItem('usuario', JSON.stringify({
-      nome: 'Aluno Zanetti',
+      nome: 'Aluno Teste',
       tipo: 'Aluno',
-      email: 'aluno@escola.com',
+      email: 'aluno@aluno.cps.sp.gov.br',
       rm: '123456',
     }));
-    navigate('/perfil');
+    navigate('/home');
   };
 
   return (

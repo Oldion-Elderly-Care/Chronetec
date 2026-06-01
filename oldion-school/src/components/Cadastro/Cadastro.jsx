@@ -11,7 +11,7 @@ const Cadastro = () => {
       email: 'novo@escola.com',
       rm: '654321',
     }));
-    navigate('/perfil');
+    navigate('/home');
   };
 
   return (

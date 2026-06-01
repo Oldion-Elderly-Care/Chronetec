@@ -10,7 +10,7 @@ const Welcome = () => {
         <h1 className="title">Olá, seja bem-vindo!</h1>
         <p className="subtitle">
           Esse é o <strong>Oldion</strong> — seu parceiro aqui na escola. 
-          Ele cuida de tudo pra você: notas, presença e muito mais. 
+          Ele cuida de tudo pra você: Datas de provas,eventos, palestras e muito mais. 
           Pode confiar nele!
         </p>
 

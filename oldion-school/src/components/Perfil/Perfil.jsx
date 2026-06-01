@@ -6,9 +6,9 @@ const Perfil = () => {
   const navigate = useNavigate();
 
   const [usuario] = useState({
-    nome: 'Aluno Zanetti',
+    nome: 'Aluno Teste',
     tipo: 'Aluno',
-    email: 'aluno@cps.sp.gov.br',
+    email: 'aluno@aluno.cps.sp.gov.br',
     rm: '123456',
   });
 
