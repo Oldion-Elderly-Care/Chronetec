@@ -11,7 +11,6 @@ body, html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Fundo da tela - Substitua pela sua imagem de fundo */
 .login-container {
   min-height: 100vh;
   background: linear-gradient(var(--bg-overlay), var(--bg-overlay)), 
@@ -30,7 +29,6 @@ body, html {
   justify-content: space-around;
 }
 
-/* Efeito de Vidro (Glassmorphism) */
 .login-box {
   background: var(--glass-bg);
   backdrop-filter: blur(10px);
@@ -103,7 +101,7 @@ body, html {
 }
 
 .divider span {
-  background: #333; /* Ajuste conforme a cor predominante do fundo */
+  background: #333;
   padding: 0 10px;
   font-size: 0.8rem;
 }
@@ -136,9 +134,8 @@ body, html {
   font-weight: bold;
 }
 
-/* Espaço para o Mascote */
 .character-section {
-  display: none; /* Escondido no mobile */
+  display: none;
 }
 
 @media (min-width: 768px) {
