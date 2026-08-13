@@ -31,8 +31,8 @@ jobs:
       - name: Instalar dependências
         run: npm ci
       # Contorna a omissão de dependências opcionais de outra plataforma no package-lock do npm.
-      - name: Instalar binding de build para Linux
-        run: npm install --no-save @rolldown/binding-linux-x64-gnu@1.0.0
+      - name: Instalar bindings de build para Linux
+        run: npm install --no-save @rolldown/binding-linux-x64-gnu@1.0.0 lightningcss-linux-x64-gnu@1.32.0
       - name: Gerar versão de produção
         run: npm run build
       - name: Configurar GitHub Pages
