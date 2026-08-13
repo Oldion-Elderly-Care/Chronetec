@@ -85,7 +85,11 @@ const Welcome = () => {
         </section>
 
         <section className="about-section" id="sobre">
-          <div className="about-art"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><span className="about-logo">O</span></div>
+          <div className="about-art">
+            <div className="orbit orbit-one" />
+            <div className="orbit orbit-two" />
+            <img className="about-logo" src={`${import.meta.env.BASE_URL}chronetec-mark.svg`} alt="Símbolo da Chronetec" />
+          </div>
           <div className="about-copy">
             <span className="eyebrow">NOSSO OBJETIVO</span>
             <h2>Menos preocupação.<br /><em>Mais aprendizado.</em></h2>

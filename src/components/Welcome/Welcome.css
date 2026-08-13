@@ -79,7 +79,7 @@
 
 .about-section { max-width: 1050px; min-height: 590px; padding: 100px 24px; margin: auto; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 90px; }
 .about-art { height: 380px; position: relative; display: grid; place-items: center; background: #eeecff; border-radius: 48% 52% 47% 53%; }
-.about-logo { width: 105px; height: 105px; display: grid; place-items: center; color: white; font: 800 52px 'Manrope'; background: var(--primary); border-radius: 34px 34px 34px 10px; box-shadow: 0 24px 50px rgba(109,93,252,.32); position: relative; z-index: 2; }
+.about-logo { width: 120px; height: 120px; padding: 8px; object-fit: contain; background: white; border-radius: 32px; box-shadow: 0 24px 50px rgba(91,97,232,.24); position: relative; z-index: 2; }
 .orbit { position: absolute; border-radius: 50%; border: 1px dashed #b8b0ff; }
 .orbit-one { inset: 45px; }.orbit-two { inset: 95px; }
 .about-copy p { margin-bottom: 15px; }
