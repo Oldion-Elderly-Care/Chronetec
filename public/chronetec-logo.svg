@@ -1,0 +1,15 @@
+<svg width="520" height="128" viewBox="0 0 520 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Chronetec</title>
+  <desc>Logo da plataforma de organização de cronogramas escolares Chronetec.</desc>
+  <g>
+    <path d="M92 31.5C84.6 24.3 74.5 20 63.5 20C40.6 20 22 38.6 22 61.5S40.6 103 63.5 103C74.5 103 84.6 98.7 92 91.5" stroke="#132238" stroke-width="15" stroke-linecap="round"/>
+    <path d="M55.8 15.4C40.8 18 28.4 27.5 21.7 40.5M21.7 82.5C28.4 95.5 40.8 105 55.8 107.6" stroke="#5B61E8" stroke-width="6" stroke-linecap="round"/>
+    <path d="M63.5 42V61.5" stroke="#132238" stroke-width="6" stroke-linecap="round"/>
+    <path d="M63.5 61.5L78 72" stroke="#C81928" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="63.5" cy="61.5" r="6.5" fill="#132238"/>
+    <rect x="48" y="4" width="25" height="25" rx="8" fill="#5B61E8" stroke="white" stroke-width="3"/>
+    <rect x="7" y="49" width="25" height="25" rx="8" fill="#35C6D4" stroke="white" stroke-width="3"/>
+    <rect x="48" y="98" width="25" height="25" rx="8" fill="#C81928" stroke="white" stroke-width="3"/>
+  </g>
+  <text x="120" y="82" fill="#132238" font-family="Manrope, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-2.5">Chronetec</text>
+</svg>
